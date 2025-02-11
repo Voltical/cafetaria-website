@@ -1,5 +1,3 @@
-Zeker! Hier is een voorbeeld van een uitgebreide README voor de restaurantpagina:
-
 ```markdown
 # Restaurant Website
 
@@ -43,5 +41,3 @@ Contributies zijn welkom! Voel je vrij om een pull request in te dienen met verb
 
 Dit project is gelicenseerd onder de MIT-licentie - zie het [LICENSE-bestand](LICENSE) voor details.
 ```
-
-Deze README biedt een gedetailleerd overzicht van de website, installatie-instructies en de gebruikte technologieën. Het is een handige handleiding voor mensen die willen bijdragen of de site lokaal willen draaien.
