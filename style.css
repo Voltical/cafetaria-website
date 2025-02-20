@@ -11,14 +11,13 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.65);
   border-left: 1px solid rgba(255, 255, 255, 0.65);
   background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(255, 255, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.199);
   backdrop-filter: blur(5px);
   border-radius: 16px;
-  margin-left: 1.25em;
-  height: 20em;
-  width: 9%;
+  margin-left: 20px;
+  height: 320px;
+  width: 230px;
   border-radius: 3%;
-
 }
 .card img {
   position: absolute;
@@ -38,11 +37,87 @@ body {
 }
 .card-2 {
   position: absolute;
-  background-color: red;
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  border-left: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
   margin-left: 280px;
   height: 320px;
   width: 230px;
   border-radius: 3%;
+}
+
+.card-3 {
+  position: absolute;
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  border-left: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+  right: 0;
+  margin-right: 10px;
+  height: 320px;
+  width: 160px;
+  border-radius: 3%;
+  padding-top: 10px;
+  text-align: center;
+}
+.container-left i {
+  margin: 3px;
+  padding: 30px;
+  font-size: 70px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  
+}
+.container-left h1 {
+  font-size: 21px;
+}
+
+.icon {
+  width: 87%;
+  height: 43.5%;
+}
+
+.card-4 {
+  position: absolute;
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  border-left: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+  right: 0;
+  margin-right: 190px;
+  height: 320px;
+  width: 160px;
+  border-radius: 3%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.card-5 {
+  position: absolute;
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  border-left: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+  right: 0;
+  margin-right: 370px;
+  height: 320px;
+  width: 160px;
+  border-radius: 3%;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .wrapper {
@@ -231,5 +306,29 @@ body {
     .menu {
       display: initial;
     }
+    .card {
+      display: none;
+    }
+    .card-2 {
+      display: none;
+    }
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff3a;
+    color: #ffffffca;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 0.85rem;
   }
   
