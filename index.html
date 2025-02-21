@@ -3,77 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="shortcut icon" href="/assets/173943562654474191 (1).webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
     <title>- Mees Catering -</title>
 </head>
 <body>
-    <header>
-        <a class="logo" href=""><h1>Catering • Mees</h1></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Placeholder</a></li>
-                <li><a href="/about.html">Over ons</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="#">Login</a>
-        <a class="cta" href="#">Registreer</a>
-        <p class="menu cta">Menu</p>
-    </header>
-    <div id="mobile__menu" class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-            <a href="#">Menu</a>
-            <a href="#">Placeholder</a>
-            <a href="/about.html">Over ons</a>
-            <a href="/contact.html">Contact</a>
+    <!-- Header sectie met navigatie en branding -->
+    <div class="header">
+        <section class="wrapper">
+            <!-- Hero sectie (Gebruikt voor visuele elementen, momenteel leeg) -->
+            <div class="hero"></div>
+
+            <!-- Navigatiebalk met logo en menu-items -->
+            <header>
+                <!-- Logo link die naar de homepagina verwijst -->
+                <a class="logo" href=""><h1>Catering • Mees</h1></a>
+
+                <!-- Navigatiemenu met links naar verschillende secties van de website -->
+                <nav>
+                    <ul class="nav__links">
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="/html/about.html">Over ons</a></li>
+                        <li><a href="/html/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Call-to-action knoppen voor Login en Registreer -->
+                <a class="cta" href="#">Login</a>
+                <a class="cta" href="#">Registreer</a>
+                
+                <!-- Knoppen voor het vertalen van de website -->
+                <div class="flag">
+                    <button onclick="translate('nl')"><img class="flag-1" src="/assets/netherlands.png"/></button>
+                    <button onclick="translate('en')"><img class="flag-2" src="/assets/united-states-of-america.png"/></button>
+                </div>
+                <!-- Menu knop voor mobiele weergave -->
+                <p class="menu cta">Menu</p>
+            </header>
+
+            <!-- Mobiel menu met overlay voor de navigatielinks -->
+            <div id="mobile__menu" class="overlay">
+                <!-- Sluitknop voor de overlay -->
+                <a class="close">&times;</a>
+
+                <!-- Navigatie-inhoud in de overlay -->
+                <div class="overlay__content">
+                    <a href="/index.html">Menu</a>
+                    <a href="#">FAQ</a>
+                    <a href="/about.html">Over ons</a>
+                    <a href="/contact.html">Contact</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Header content met titel voor de pagina -->
+        <div class="header-content">
+            <h1 class="title">Catering<br>- Mees -</h1>
+        </div>
+
+        <div class="wrapper">
+            <a href="" class="tooltip" data-tooltip="Menu"><i class="fa-solid fa-burger"></i></a>
+            <a href="" class="tooltip" data-tooltip="Bestellen"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="" class="tooltip" data-tooltip="Openingstijden"><i class="fa-solid fa-clock"></i></a>
+            <a href="" class="tooltip" data-tooltip="Locatie"><i class="fa-solid fa-map-location"></i></a>
+            <a href="" class="tooltip" data-tooltip="Contact"><i class="fa-solid fa-phone"></i></a>
+            <a href="" class="tooltip" data-tooltip="Vacatures"><i class="fa-solid fa-briefcase"></i></a>
+        </div>
+
+        <!-- Introductie van het bedrijf met een korte beschrijving -->
+        <div class="intro">
+            <h2>
+                Wij zijn MEES, de cafetaria van het VISTA college Heerlen. Wij zorgen ervoor dat alle studenten en personeel van het VISTA college ten alle tijden eten en drinken kunnen halen voor een redelijke prijs. Met een gevarieerd assortiment aan verse snacks, broodjes en drankjes, is er voor ieder wat wils. Ons vriendelijke team staat altijd klaar om je snel en met een glimlach te helpen.
+            </h2>
+        </div>
+        <div class="menu-pagina">
+            <h1>Ons menu</h1>
+            <div class="menu-container">
+                <div class="product-1">
+                        
+                </div>
+                <div class="product-2">
+
+                </div>
+                <div class="product-3">
+
+                </div>
+                <div class="product-4">
+
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container-left">
-        <div class="card">
-            <img src="/assets/vitaalhk.jpg">
-            <h1 class="beschrijving"></h1>   
-        </div>
-
-        <div class="card-2">  
-            <i class="fa-solid fa-wheat-awn-circle-exclamation"></i>
-            <i class="fa-solid fa-cow"></i>
-            <i class="fa-solid fa-peanut"></i>
-        </div>
-
-        <div class="card-3">
-            <i class="fa-solid fa-bowl-rice"></i>
-            <h1>Soep</h1>
-        </div>
-
-        <div class="card-4">
-            <i class="fa-solid fa-mug-hot"></i>
-            <h1>Warme dranken</h1>
-        </div>
-
-        <div class="card-5">
-            <i class="fa-solid fa-glass-water icon fa-1x"></i>
-            <h1 class="fris">Frisdranken</h1>
-        </div>
-    </div><!-- end div container-left-->
-
-    <h1 class="home">Catering<br>- Mees -</h1>
-    <div class="wrapper">
-        <a href="" class="tooltip" data-tooltip="Menu"><i class="fa-solid fa-burger"></i></a>
-        <a href="" class="tooltip" data-tooltip="Bestellen"><i class="fa-solid fa-cart-shopping"></i></a>
-        <a href="" class="tooltip" data-tooltip="Openingstijden"><i class="fa-solid fa-clock"></i></a>
-        <a href="" class="tooltip" data-tooltip="Locatie"><i class="fa-solid fa-map-location"></i></a>
-        <a href="" class="tooltip" data-tooltip="Contact"><i class="fa-solid fa-phone"></i></a>
-        <a href="" class="tooltip" data-tooltip="Vacatures"><i class="fa-solid fa-briefcase"></i></a>
-    </div>
-    <p class="verslag">Wij zijn MEES, de cafetaria van het VISTA college Heerlen, wij zorgen ervoor dat alle studenten en personeel van het VISTA college ten alle tijden eten en drinken kunnen halen voor een redelijke prjs. Met een gevarieerd assortiment aan verse snacks, broodjes en drankjes, is er voor ieder wat wils. Ons vriendelijke team staat altijd klaar om je snel en met een glimlach te helpen.</p>
-    <footer class="footer">
-        <p>© 2025 MEES Catering.</p>
-    </footer>
     <script src="https://kit.fontawesome.com/bb89b598a6.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
